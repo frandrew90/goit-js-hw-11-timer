@@ -42,6 +42,7 @@ class CountdownTimer {
       this.hoursRef.textContent = "00";
       this.minsRef.textContent = "00";
       this.secsRef.textContent = "00";
+      alert("Incorrect date!");
       return;
     }
     this.timeUpdater(time);
